@@ -1,36 +1,45 @@
 # Git cheat sheet
 
 git
-La simple instruccion git despliega un menu de comandos que podremos usar cuando
-necesitemos de esta herramienta
+The simple git command displays a menu of commands that we can use when
+we need this tool
 git init
-Con el comando init podemos inicializar un repositorio en la carpeta donde estemos situados
-git config --global user.name
-git config --global user.mail
-Son configuraciones de usuario para nuestro git local(no afecta el remoto)
+With the init command we can initialize a repository in the folder where we are located
+git config --global user.name to change the username
+git config --global user.mail to change email
+These are user configurations for our local git(does not affect the remote)
 git help
-Despliega una breve descripcion del comando que queramos solicitar informacion sobre como usarlo
-git add 
-Añade los archivos que señalemos a la nueva version que a continuacion confirmaremos y con un * señalamos
-todos los archivos existentes en la carpeta
-git add *
+Displays a brief description of the command we want to request information on how to use it
+git add
+Add the files that we point to the new version that we will then confirm and with a * we point out
+all existing files in the folder
+git add
 git rm
-Esta herramienta es muy util para borrar ciertas acciones u archivos
+This tool is very useful for deleting certain actions or files
 git mv
-Podemos remplazar un nombre de un archivo con mv
+We can replace a file name with mv
 git status
-Realiza un stado del repositorio donde estemos ubicados y nos muestra como estan nuestros archivos y branchs, si colocamos -s nos da un resumen bastante resumido.
+It makes a state of the repository where we are located and shows us how our files and branchs are, if we place -s gives us a pretty summary.
 git diff
-Con este comando podemos ver cuales son las diferencias entre los anteriores cambios que realizamos con add
+With this command we can see what are the differences between the previous changes we made with add
 git log
-Despliega un historial de todo lo que hemos realizado en el repositorio
+Displays a history of everything we have done in the repository with very important information
+as users involved, heads or branches
 git commit
+Generates a version on the branch we are working on in the repository where we are located, we can write a message directly with -m "message"
 git commit -m ""
 git commit --amend
+Bring the latest version so you can make changes to that version and upload it back to your repository
 git reset
+You can reset the entire local repository with a new remote clone (dangerous)
 git checkout
+returns to the branch and deletes it to make new changes
 git push
+to send a commit to a remote repository push <address> is used
 git pull
+Brings new changes from the remote repository we’re working on
 git clone
+Clone all files from a remote repository to work with locally
 git remote
-
+To connect cloning from a local repository to one in the cloud you can use git remote to
+be able to make changes to the online repository
