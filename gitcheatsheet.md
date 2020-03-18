@@ -43,3 +43,6 @@ Clone all files from a remote repository to work with locally
 git remote
 To connect cloning from a local repository to one in the cloud you can use git remote to
 be able to make changes to the online repository
+
+
+git pull origin master --allow-unrelated-histories
